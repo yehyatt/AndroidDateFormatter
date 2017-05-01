@@ -21,4 +21,9 @@
 
 ## Actual Example:
 `String FormattedText = FormatDate.getCustomDate("1493642199438",FormatDate.ddMMyy());`
+Result will be 01 05 2017
+
+## Other usage:
+`String FormattedText = FormatDate.getCustomDate("1493642199438","dd MM yyyy hh:mm");`
+
     
