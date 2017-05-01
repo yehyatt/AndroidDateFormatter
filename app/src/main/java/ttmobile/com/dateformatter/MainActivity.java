@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         TextView DateText = (TextView) findViewById(R.id.DateText);
-        DateText.setText(FormatDate.getCustomDate("1493642199438",FormatDate.ddmmyyyy()));
+        DateText.setText(FormatDate.getCustomDate("1493642199438",FormatDate.ddMMyy()));
     }
 }

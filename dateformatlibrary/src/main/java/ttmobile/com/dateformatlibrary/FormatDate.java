@@ -15,6 +15,7 @@ public class FormatDate
     /**
      * Example 25 08 1981
      */
+    //Example 25 08 1981
     public static String ddMMyyyy()
     {
         return "dd MM yyyy";
@@ -73,7 +74,7 @@ public class FormatDate
      */
     public static String ddMMyy()
     {
-        return "dd MM yyyy";
+        return "dd MM yy";
     }
 
     /**
@@ -81,7 +82,7 @@ public class FormatDate
      */
     public static String MMddyy()
     {
-        return "MM dd yyyy";
+        return "MM dd yy";
     }
 
     /**
@@ -89,7 +90,7 @@ public class FormatDate
      */
     public static String ddMMyyDashSeparated()
     {
-        return "dd-MM-yyyy";
+        return "dd-MM-yy";
     }
 
     /**
@@ -97,7 +98,7 @@ public class FormatDate
      */
     public static String MMddyyDashSeparated()
     {
-        return "MM-dd-yyyy";
+        return "MM-dd-yy";
     }
 
     /**
@@ -105,7 +106,7 @@ public class FormatDate
      */
     public static String ddMMyySlashSeparated()
     {
-        return "dd/MM/yyyy";
+        return "dd/MM/yy";
     }
 
     /**
@@ -113,7 +114,7 @@ public class FormatDate
      */
     public static String MMddyySlashSeparated()
     {
-        return "MM/dd/yyyy";
+        return "MM/dd/yy";
     }
 
     /**
@@ -121,7 +122,7 @@ public class FormatDate
      */
     public static String MMMddyy()
     {
-        return "MMM dd, yyyy";
+        return "MMM dd, yy";
     }
 
 
