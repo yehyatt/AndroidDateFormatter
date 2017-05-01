@@ -15,7 +15,6 @@ public class FormatDate
     /**
      * Example 25 08 1981
      */
-    //Example 25 08 1981
     public static String ddMMyyyy()
     {
         return "dd MM yyyy";
