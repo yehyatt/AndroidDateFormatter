@@ -11,6 +11,11 @@ import java.util.Locale;
 
 public class FormatDate
 {
+
+    /**
+     * Example 25 08 1981
+     */
+    public static String ddmmyyyy = "dd MM YYYY";
     public static String getCustomDate(String milliSeconds, String dateFormat)
     {
 
