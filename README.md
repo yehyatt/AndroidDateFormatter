@@ -1,6 +1,8 @@
 # AndroidDateFormatter
 
-## Usage (in app gradle ):
+## Usage: 
+
+## In app Gradle:
 
     `compile 'com.github.yehyatt:AndroidDateFormatter:v1.14'`
    
