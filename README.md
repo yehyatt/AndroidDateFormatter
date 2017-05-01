@@ -28,5 +28,6 @@ Result will be 01 05 2017
 
 ![alt text](https://github.com/yehyatt/AndroidDateFormatter/blob/master/Screen%20Shot%202017-05-01%20at%206.52.39%20PM.png)
 
+#### Image copyright:
 https://developer.android.com/reference/java/text/SimpleDateFormat.html
     
