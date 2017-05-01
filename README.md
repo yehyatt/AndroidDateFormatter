@@ -26,7 +26,7 @@ Result will be 01 05 2017
 ## Other usage:
 `String FormattedText = FormatDate.getCustomDate("1493642199438","dd MM yyyy hh:mm");`
 
-https://github.com/yehyatt/AndroidDateFormatter/blob/master/Screen%20Shot%202017-05-01%20at%206.52.39%20PM.png
+![alt text](https://github.com/yehyatt/AndroidDateFormatter/blob/master/Screen%20Shot%202017-05-01%20at%206.52.39%20PM.png)
 
 https://developer.android.com/reference/java/text/SimpleDateFormat.html
     
