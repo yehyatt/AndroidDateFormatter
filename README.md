@@ -4,9 +4,7 @@ Usage (in app gradle ):
 
     compile 'com.github.yehyatt:AndroidDateFormatter:v1.14'
    
-   
-   
-   In main Gradle:
+In main Gradle:
    
    allprojects {
     repositories {
