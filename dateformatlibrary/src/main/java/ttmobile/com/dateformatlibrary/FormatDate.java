@@ -15,17 +15,124 @@ public class FormatDate
     /**
      * Example 25 08 1981
      */
-    public static String ddmmyyyy = "dd MM YYYY";
+    public static String ddMMyyyy()
+    {
+        return "dd MM yyyy";
+    }
+
+    /**
+     * Example 08 25 1981
+     */
+    public static String MMddyyyy()
+    {
+        return "MM dd yyyy";
+    }
+
+    /**
+     * Example 25-08-1981
+     */
+    public static String ddMMyyyyDashSeparated()
+    {
+        return "dd-MM-yyyy";
+    }
+
+    /**
+     * Example 08-25-1981
+     */
+    public static String MMddyyyyDashSeparated()
+    {
+        return "MM-dd-yyyy";
+    }
+
+    /**
+     * Example 25/08/1981
+     */
+    public static String ddMMyyyySlashSeparated()
+    {
+        return "dd/MM/yyyy";
+    }
+
+    /**
+     * Example 08/25/1981
+     */
+    public static String MMddyyyySlashSeparated()
+    {
+        return "MM/dd/yyyy";
+    }
+
+    /**
+     * Example Aug 25, 1981
+     */
+    public static String MMMddyyyy()
+    {
+        return "MMM dd, yyyy";
+    }
+
+    /**
+     * Example 25 08 81
+     */
+    public static String ddMMyy()
+    {
+        return "dd MM yyyy";
+    }
+
+    /**
+     * Example 08 25 81
+     */
+    public static String MMddyy()
+    {
+        return "MM dd yyyy";
+    }
+
+    /**
+     * Example 25-08-81
+     */
+    public static String ddMMyyDashSeparated()
+    {
+        return "dd-MM-yyyy";
+    }
+
+    /**
+     * Example 08-25-81
+     */
+    public static String MMddyyDashSeparated()
+    {
+        return "MM-dd-yyyy";
+    }
+
+    /**
+     * Example 25/08/81
+     */
+    public static String ddMMyySlashSeparated()
+    {
+        return "dd/MM/yyyy";
+    }
+
+    /**
+     * Example 08/25/81
+     */
+    public static String MMddyySlashSeparated()
+    {
+        return "MM/dd/yyyy";
+    }
+
+    /**
+     * Example Aug 25, 81
+     */
+    public static String MMMddyy()
+    {
+        return "MMM dd, yyyy";
+    }
+
+
     public static String getCustomDate(String milliSeconds, String dateFormat)
     {
 
         String FormattedDate = "";
         try
         {
-            // Create a DateFormatter object for displaying date in specified format.
             SimpleDateFormat formatter = new SimpleDateFormat(dateFormat, Locale.ENGLISH);
             long longMilliSeconds = Long.parseLong(milliSeconds);
-            // Create a calendar object that will convert the date and time value in milliseconds to date.
             Calendar calendar = Calendar.getInstance();
             calendar.setTimeInMillis(longMilliSeconds);
             FormattedDate = formatter.format(calendar.getTime());
